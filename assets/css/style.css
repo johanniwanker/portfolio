@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+}
+
+.toplogo {
+  position: absolute;
+  width: 80px;
+  z-index: 100;
+}
+
+li {
+  list-style: none;
+  padding: 15px 50px;
+  font-family: 'Space Mono';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+  color: darkgrey;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa {
+  display: inline-block;
+  padding: 10px 32px;
+
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+.presfot {
+  width: 50%;
+}
+
+.tt {
+  width: 90%;
+  height: 100%;
+}
+
+#topbanner {
+  text-align: center;
+}
+
+#pressefoto {
+  flex: 2;
+  margin: 100px 0 0 0;
+  height: 500px;
+  text-align: center;
+}
+
+#kontaktinformation {
+  flex: 2;
+  height: 500px;
+  text-align: center;
+  margin: 175px 0 0 0 ;
+  font-size: 15px;
+  font-family: 'Space Mono';
+}
+
+#content {
+  display: flex;
+}
+
+#site-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 1200px;
+  padding: 0;
+  background: white;
+}
+
+#site-back {
+  height: 100%;
+}
