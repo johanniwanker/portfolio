@@ -47,8 +47,15 @@ footer {
 }
 
 .tt {
-  width: 90%;
-  height: 100%;
+  width: 50%;
+  padding-top: 75px;
+  float: left;
+}
+
+.multi {
+  padding-top: 225px;
+  font-family: 'Space Mono';
+  font-size: 40px;
 }
 
 #topbanner {
